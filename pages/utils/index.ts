@@ -1,1 +1,1 @@
-export * from "./utils";
+export { device } from "./utils";

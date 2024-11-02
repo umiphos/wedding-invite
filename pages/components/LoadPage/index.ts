@@ -1,2 +1,2 @@
-export * from "./LoadPage";
-export * from "./Loader";
+export { LoadPage } from "./LoadPage";
+export { Loader } from "./Loader";

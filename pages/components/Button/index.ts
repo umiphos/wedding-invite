@@ -1,2 +1,2 @@
-export * from "./Button";
-export * from "./styled";
+export { Button } from "./Button";
+export { ButtonStyled } from "./styled";

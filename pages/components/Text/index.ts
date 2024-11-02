@@ -1,2 +1,2 @@
-export * from "./Text";
-export * from "./styled";
+export { Text } from "./Text";
+export { TextStyled } from "./styled";

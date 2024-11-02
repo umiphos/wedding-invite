@@ -1,1 +1,1 @@
-export * from "./styled";
+export { Divider } from "./styled";
