@@ -9,4 +9,5 @@ export interface IText {
   paddingRight?: string;
   fontSize?: string;
   fontWeight?: string;
+  children?: React.ReactNode;
 }

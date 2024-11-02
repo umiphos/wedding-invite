@@ -12,7 +12,7 @@ export const Page5: React.FC = () => {
   return (
     <Page3Wrapper>
       <Page2Container>
-        <GoogleFormComponent form={form as GoogleForm}/>
+        <GoogleFormComponent form={form as unknown as GoogleForm}/>
       </Page2Container>
     </Page3Wrapper>
   );

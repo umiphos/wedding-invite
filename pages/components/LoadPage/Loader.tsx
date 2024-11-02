@@ -1,3 +1,4 @@
+import React from "react";
 import { LoaderStyled, LdsRing, LoaderText } from "./styled";
 
 export const Loader = () => (

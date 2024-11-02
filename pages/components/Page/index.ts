@@ -1,1 +1,1 @@
- } "./Page";
+export { Page } from "./Page";
