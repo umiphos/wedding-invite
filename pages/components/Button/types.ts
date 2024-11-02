@@ -4,7 +4,7 @@ export interface IButton extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   paddingX?: string;
   paddingY?: string;
   paddingTop?: string;
-  paddingBottom?: string;
+  $paddingBottom?: string;
   paddingLeft?: string;
   paddingRight?: string;
   fontSize?: string;

@@ -8,10 +8,10 @@ export const Page3: React.FC = () => {
     <Page3Wrapper>
       <MapVolhonka />
       <Page2Container>
-        <Text fontSize="18px" paddingBottom="18px">
+        <Text fontSize="18px" $paddingBottom="18px">
           Наша регистрация пройдет в особняке на Волхонке.
         </Text>
-        <Text fontSize="16px" paddingBottom="18px">
+        <Text fontSize="16px" $paddingBottom="18px">
           Адрес: ул. Большой Знаменский пер., 2, стр. 3
         </Text>
         <a href="https://yandex.ru/maps/-/CCUqZUGR8B">Открыть в Я.Картах</a>

@@ -4,7 +4,7 @@ export interface IText {
   paddingX?: string;
   paddingY?: string;
   paddingTop?: string;
-  paddingBottom?: string;
+  $paddingBottom?: string;
   paddingLeft?: string;
   paddingRight?: string;
   fontSize?: string;

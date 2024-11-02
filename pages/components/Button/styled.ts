@@ -35,7 +35,7 @@ export const ButtonStyled = styled.button<IButton>`
     padding-right: ${paddingY};
   `}
   ${({ paddingTop = PADDING_TOP }) => paddingTop && `padding-top: ${paddingTop};`}
-  ${({ paddingBottom = PADDING_BOTTOM }) => paddingBottom && `padding-bottom: ${paddingBottom};`}
+  ${({ $paddingBottom = PADDING_BOTTOM }) => $paddingBottom && `padding-bottom: ${$paddingBottom};`}
   ${({ paddingLeft = PADDING_LEFT }) => paddingLeft && `padding-left: ${paddingLeft};`}
   ${({ paddingRight = PADDING_RIGHT }) => paddingRight && `padding-right: ${paddingRight};`}
   ${({ fontSize = DEFAULT_FONT_SIZE }) => fontSize && `font-size: ${fontSize};`}

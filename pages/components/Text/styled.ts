@@ -17,7 +17,7 @@ export const TextStyled = styled.span<IText>`
     padding-right: ${paddingY};
   `}
   ${({ paddingTop }) => paddingTop && `padding-top: ${paddingTop};`}
-  ${({ paddingBottom }) => paddingBottom && `padding-bottom: ${paddingBottom};`}
+  ${({ $paddingBottom }) => $paddingBottom && `padding-bottom: ${$paddingBottom};`}
   ${({ paddingLeft }) => paddingLeft && `padding-left: ${paddingLeft};`}
   ${({ paddingRight }) => paddingRight && `padding-right: ${paddingRight};`}
   ${({ fontSize }) => fontSize && `font-size: ${fontSize};`}
