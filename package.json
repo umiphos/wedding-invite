@@ -6,27 +6,25 @@
   "main": "src/index.tsx",
   "homepage": "https://okurilo.github.io/wedding-invite",
   "dependencies": {
-    "@types/styled-components": "5.1.15",
-    "gh-pages": "^3.2.3",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-google-forms-hooks": "^1.2.0",
-    "react-parallax": "3.3.0",
-    "react-scripts": "4.0.3",
-    "styled-components": "5.3.1"
+    "@types/styled-components": "5.1.34",
+    "gh-pages": "6.2.0",
+    "next": "^14.2.6",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-google-forms-hooks": "^1.2.4",
+    "react-parallax": "3.5.1",
+    "styled-components": "6.1.13",
+    "typescript": "5.6.3"
   },
   "devDependencies": {
-    "@types/react": "17.0.20",
-    "@types/react-dom": "17.0.9",
-    "typescript": "4.4.2"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1"
+  },  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d out"
   },
   "browserslist": [
     ">0.2%",
